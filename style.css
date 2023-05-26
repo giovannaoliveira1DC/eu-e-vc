@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/* Processo de renderizaçao da pagina */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Definir as fontes da polaroid */
+
+.product p{
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* definiçao da fonte e da cor do header */
+
+ header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    padding: 30px;
+    background-color: #2e2c2c;
+ }
+
+ /* Definir o conte iner principal */
+
+ main#album{
+    display: flex;
+    flex-flow: row wrap;
+ }
+
+ /* Editanto a coluna */
+ section.coluna{
+    flex: 1 1 100%;
+    padding: 0px 5px;
+ }
+
+ /* Define o item flex para cada foto  */
+ .product{
+    background-color: #f4ffc3;
+    border: 1px  solid  #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+ }
+ .product img{
+    width: 100%;
+    /* borda na parte superior da foto */
+    padding-bottom: 10px;
+ }
+ footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+ }
+ 
+
+
